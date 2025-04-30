@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TODOCommon\TODOCommon.csproj" />
+    <ProjectReference Include="..\TODOTransactionServices\TODOTransactionServices.csproj" />
+  </ItemGroup>
+
 </Project>
