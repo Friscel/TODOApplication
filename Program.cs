@@ -50,7 +50,6 @@ namespace TODOApplication
                 }
             }
         }
-
         private static void DisplayHeader()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;

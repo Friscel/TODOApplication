@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TODOCommon\**" />
+    <Compile Remove="TODODataService\**" />
+    <Compile Remove="TODOTransactionServices\**" />
+    <EmbeddedResource Remove="TODOCommon\**" />
+    <EmbeddedResource Remove="TODODataService\**" />
+    <EmbeddedResource Remove="TODOTransactionServices\**" />
+    <None Remove="TODOCommon\**" />
+    <None Remove="TODODataService\**" />
+    <None Remove="TODOTransactionServices\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TODOCommon\TODOCommon.csproj" />
     <ProjectReference Include="..\TODOTransactionServices\TODOTransactionServices.csproj" />
   </ItemGroup>
